@@ -8,7 +8,7 @@ const SendTestEmail = async (email, name, subject, textContent) => {
     var apiInstance = new SibApiV3Sdk.TransactionalEmailsApi();
     var sendSmtpEmail = new SibApiV3Sdk.SendSmtpEmail(); // SendSmtpEmail | Values to send a transactional email
     sendSmtpEmail = {
-      sender: { email: "mayank7924@gmail.com" },
+      sender: { email: anvithabollampally129@gmail.com" },
       to: [
         {
           email,
